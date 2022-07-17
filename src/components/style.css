@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+.class-main{
+  margin: auto;
+  margin-top: 10rem;
+  width: 30%;
+  /* border: 1px solid green; */
+  padding: 10px;
+  text-align: center;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s ;
+  /* animation:alternate-reverse; */
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+.class-child{
+    margin: auto;
+    height: 30rem;
+  width: 80%;
+  border: 1px solid green;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0.5, 0, 0, 0.5);
+  background-color:blueviolet;
+}
+.edit-todo{
+    width: 80%;
+    /* text-align: center; */
+    padding: 5px;
+}
+.edit-item{
+    width: 80%;
+    height: 3rem;
+    margin-left: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+
+}
+.add-btn1{
+    margin-left: -30px;
+    font-size: larger;
+    cursor: pointer;
+}
+.add-btn2{
+    float: right;
+    font-size: larger;
+    cursor: pointer;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+
+.btn-style{
+    width: 30%;
+    height: 2.5rem;
+    border-radius: 1rem;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+.showData{
+    width: 80%;
+    padding: auto;
+}
+.eachData{
+    width: 80%;
+    background-color: aliceblue;
+    color: black;
+    height: 3rem;
+    margin-left: 4rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.5rem;
+
+}
+.tag-style{
+    float: left;
+    padding-left: 1rem;
+    padding-top: 10px;
+}
